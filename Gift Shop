@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>A Gift Shop - with trends</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <style>
+    
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+ 
+    .hero {
+      background: url('https://static.vecteezy.com/system/resources/previews/004/299/830/original/shopping-online-on-phone-with-podium-paper-art-modern-pink-background-gifts-box-illustration-free-vector.jpg') no-repeat center center/cover;
+      height: 100vh;
+      position: relative;
+      color: #fff;
+    }
+    .hero-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+    .footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">A Gift Shop - with trends</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#shop">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero d-flex align-items-center">
+    <div class="hero-overlay"></div>
+    <div class="container text-center hero-content">
+      <h1 class="display-4 font-weight-bold">Discover the Perfect Gift</h1>
+      <p class="lead">Trending Gifts for Valentine's Day and Beyond</p>
+      <a href="#shop" class="btn btn-primary btn-lg">Shop Now</a>
+    </div>
+  </section>
+
+  <section id="shop" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Trending Gifts</h2>
+      <div class="row">
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://cdn.bloomsflora.com/uploads/product/bloomsflora/6147_74_6147.webp" class="card-img-top" alt="Romantic Roses" />
+            <div class="card-body">
+              <h5 class="card-title">Romantic Roses</h5>
+              <p class="card-text">A bouquet of fresh roses to express your love.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-primary font-weight-bold">2900/-</span>
+                <a href="#" class="btn btn-sm btn-outline-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.MubZDBMQyp7lkLEAiqIk_QHaE0&pid=Api&P=0&h=180" class="card-img-top" alt="Delicious Chocolates" />
+            <div class="card-body">
+              <h5 class="card-title">Delicious Chocolates</h5>
+              <p class="card-text">Indulge in the rich taste of handcrafted chocolates.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-primary font-weight-bold">1999/-</span>
+                <a href="#" class="btn btn-sm btn-outline-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.sgqPceEUj6CQSOy_oQqz2QHaHa&pid=Api&P=0&h=180" class="card-img-top" alt="Elegant Jewelry" />
+            <div class="card-body">
+              <h5 class="card-title">Elegant Jewelry</h5>
+              <p class="card-text">Sparkle with our exclusive collection of jewelry.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-primary font-weight-bold">4999/-</span>
+                <a href="#" class="btn btn-sm btn-outline-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.p5YzyicmQsGnDSsaBDBrvAHaHa&pid=Api&P=0&h=180" class="card-img-top" alt="Sensational Perfume" />
+            <div class="card-body">
+              <h5 class="card-title">Sensational Perfume</h5>
+              <p class="card-text">Experience the allure of our best-selling scents.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-primary font-weight-bold">3999/-</span>
+                <a href="#" class="btn btn-sm btn-outline-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.ZskqAWPr1w696SBQy0mipgHaFD&pid=Api&P=0&h=180" class="card-img-top" alt="Stylish Handbag" />
+            <div class="card-body">
+              <h5 class="card-title">Stylish Handbag</h5>
+              <p class="card-text">A trendy accessory for every fashion-forward individual.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-primary font-weight-bold">5999/-</span>
+                <a href="#" class="btn btn-sm btn-outline-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://www.dhresource.com/0x0s/f2-albu-g9-M01-05-1F-rBVaWF6KxOqADufBAAHNQ4VHp5I972.jpg/luxury-designer-women-5-sets-include-watch.jpg" class="card-img-top" alt="Luxury Watch" />
+            <div class="card-body">
+              <h5 class="card-title">Luxury Watch</h5>
+              <p class="card-text">Timeless design that speaks volumes about elegance.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-primary font-weight-bold">8999/-</span>
+                <a href="#" class="btn btn-sm btn-outline-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- End Row -->
+    </div>
+  </section>
+
+  <footer class="footer text-center">
+    <div class="container">
+      <p>&copy; 2025 A Gift Shop - with trends. All rights reserved.</p>
+      <p>Follow us:
+        <a href="#" class="text-light ml-2">Facebook</a> |
+        <a href="#" class="text-light ml-2">Instagram</a> |
+        <a href="#" class="text-light ml-2">Twitter</a>
+      </p>
+    </div>
+  </footer>
+
+ 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<!--I have taken a bit of help from ai to make this webiste -->
